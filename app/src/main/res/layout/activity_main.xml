@@ -11,24 +11,4 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.trungtrucnguyen.mytextfield.MainActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/bart"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/bart1"
-        android:onClick="tappedImage"/>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/bart1"
-        android:id="@+id/bart2"
-        android:src="@drawable/bart1"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
 </RelativeLayout>
